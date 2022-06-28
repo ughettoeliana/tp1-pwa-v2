@@ -1,0 +1,220 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Helvetica, Arial, Lucida, sans-serif;
+}
+
+body {
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar-nav .nav-item .nav-link{
+  color: white;
+}
+
+.navbar-nav .nav-item .nav-link.active{
+  color: white;
+}
+
+/* .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background-color: #A00000;
+  height: 43px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar .nav-items .nav-item{
+  padding: 0 2em;
+  font-size: 1.2em;
+  line-height: 2.4em;
+}
+
+.nav-items li {
+  display: inline-block;
+  padding: 0 16px;
+} */
+
+
+.banner-section {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  padding: 1em;
+}
+
+.banner-section .banner-description{
+  padding: 1em 0;
+  /* font-size: 1.5em;
+  line-height: 1.5em;
+  position: absolute;
+  left: 37%;
+  top: 6em; */
+}
+
+.img-container img {
+  width: 100%;
+  display: block;
+}
+
+/* .movies-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  gap: 40px;
+  padding-left: 1em;
+  padding-right: 1em; 
+  margin: auto;
+} */
+
+.movies-container{
+    box-shadow: 10px 5px 35px gray;
+    padding: 1em;
+}
+
+.movie.card{
+  border: none;
+}
+
+.movies-section img{
+  border-radius: 12px;
+  width: 100%;
+  display: block;
+}
+
+.card-title{
+  margin-top: 0.5em;
+}
+
+.movies-section{
+  text-align: center;
+}
+
+/* Details section */
+
+.detail-a {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #A00000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.detail-a:hover {
+    cursor: pointer;
+}
+
+
+.movie-detail-container{
+  border: 1px solid grey;
+  border-radius: 10px;
+  max-width: 40%;
+  padding: 1em;
+  margin: 2em auto;
+}
+
+.center-container{
+  margin: 0 auto;
+  max-width: 25%;
+}
+
+.description {
+  margin: 2em;
+}
+
+.review-container{
+  margin: 5em auto 0;
+}
+
+.comment-input{
+  padding: 0.5em;
+  border: 1px solid grey;
+}
+
+.detail-a.home-button{
+  background-color: #B16C6A;
+  opacity: 1px;
+}
+
+.show-comment-input p{
+  border: 0.0625rem solid #dadce0;
+  border-radius: 3px;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Fin de details section */
+
+/*Seccion de intalar la app*/
+
+.instalar-app-container{
+  text-align: center;
+  display: none;
+}
+
+.buttons.btn{
+  cursor: pointer;
+  margin: 1em 0;
+  background-color: #A00000;
+  color: white;
+}
+
+
+/* Css de el boton compartir */
+
+.share-app-container{
+  text-align: center;
+}
+
+/* fin */
+
+/* Online status css */
+
+.offline-status{
+  font-size: 1em;
+  background-color: #B16C6A;
+  color: white;
+  background-image: url('/pwa-parcial-2-dwt3ah-ughetto-eliana/assets/no-wifi.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 2em;
+  padding: 0.3em 2.2em;
+}
+
+.online-status{
+  font-size: 1em;
+  background-color: #00EA71;
+  background-image: url('/pwa-parcial-2-dwt3ah-ughetto-eliana/assets/online-icon.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 2em;
+  padding: 0.3em 2.2em;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-section {
+    display: flex;
+  }
+
+  .buttons-section{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+}

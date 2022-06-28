@@ -1,0 +1,66 @@
+[
+  {
+    "item_id": 1,
+    "title": "Game-Show",
+    "short_description": "El joven Charles Van Doren, miembro de una reputada familia de literatos, desbanca al judío Herbie Stempel como ganador en un concurso televisivo de preguntas y respuestas, y se convierte en un héroe nacional. Pero todo es un fraude.",
+    "duration": "2h 13m",
+    "image": "./assets/game-show-img.jpeg",
+    "image_alt" : "Game-Show"
+  },
+  {
+    "item_id": 2,
+    "title": "Game Thrones",
+    "short_description": "Juego de tronos (en inglés, A Game of Thrones) es una novela de fantasía escrita por el autor estadounidense George R. R. Martin en 1996 y ganadora del premio Locus a la mejor novela de fantasía en 1997. Se trata de la primera entrega de la serie de gran popularidad Canción de hielo y fuego.",
+    "duration": "Duracion de cada capitulo: 50-80 minutos  Cantidad de episodios: 73 Temporadas: 8",
+    "image": "./assets/game-of-thrones-img.jpg",
+    "image_alt" : "Game Thrones"
+  },
+  {
+    "item_id": 3,
+    "title": "The Squid Game",
+    "short_description": "El título 'Squid Game' proviene del juego en el que un atacante y un defensor se enfrentan cara a cara en formas de círculo, triángulo y cuadrado, como un calamar. Si un atacante logra atravesar al defensor y entra en el círculo, o en la cabeza del calamar, él o ella gana.",
+    "duration": "Duracion de cada capitulo: 32-63 minutos  Cantidad de episodios: 9  Temporadas: 1",
+    "image": "./assets/squid-game-img.jpg",
+    "image_alt" : "The Squid Game"
+  },
+  {
+    "item_id": 4,
+    "title": "The Imitation",
+    "short_description": "La película narra la carrera contrarreloj de Alan Turing (Benedict Cumberbatch) y su equipo de descifrado de códigos en su intento de romper el cifrado de la máquina Enigma de la Alemania Nazi en el ultrasecreto Cuartel General de Comunicaciones del Gobierno del Reino Unido, situado en la mansión de Bletchley Park.",
+    "duration": "1h 54m",
+    "image": "./assets/the-imitation-game.jpg",
+    "image_alt" : "The Imitation"
+  },
+  {
+    "item_id": 5,
+    "title": "The hating game",
+    "short_description": "Con la determinación de lograr el éxito profesional sin comprometer su ética, Lucy se embarca en un despiadado juego de superación contra su frío y eficiente némesis Joshua, una rivalidad que se complica por su creciente atracción por él.",
+    "duration": "1h 42m",
+    "image": "./assets/the-imitation-game.jpg",
+    "image_alt" : "The hating game"
+  },
+  {
+    "item_id": 6,
+    "title": "The Game",
+    "short_description": "Cuenta la historia de un banquero rico que recibe un misterioso regalo: participar en un juego que se integra de forma extraña en su vida cotidiana. A medida que las líneas entre la vida real del banquero y el juego se vuelven más inciertas, se hacen evidentes los indicios de una gran conspiración.",
+    "duration": "2h 9m",
+    "image": "./assets/the-game-img.jpg",
+    "image_alt" : "The Game"
+  },
+  {
+    "item_id": 7,
+    "title": "The Greatest Game Ever Played",
+    "short_description": "THE GREATEST GAME EVER PLAYED is the story of Francis Ouimet and Harry Vardon, who in pursuit of their passion for a game that captivated them as children, broke down rigid social barriers that made their sport accessible to everyone on both sides of the Atlantic and beyond, positioning golf as one of the most widely played games in the world.",
+    "duration": "2 horas",
+    "image": "./assets/the-greatest-game-img.jpg",
+    "image_alt" : "The Greatest Game Ever Played"
+  },
+  {
+    "item_id": 8,
+    "title": "Molly's Game",
+    "short_description": "Molly's Game está basada en la historia real de Molly Bloom (Jessica Chastain), una prometedora esquiadora de nivel olímpico que, al ver truncada su carrera deportiva, acabó organizando las partidas de póker clandestinas más exclusivas de Estados Unidos.",
+    "duration": "2h 20m",
+    "image": "./assets/mollys-game-img.jpg",
+    "image_alt" : "Molly's Game"
+  }
+]
